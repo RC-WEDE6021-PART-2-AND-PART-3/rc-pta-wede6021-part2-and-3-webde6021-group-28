@@ -1,0 +1,13 @@
+Sheketli Mochaki	s.mocha@abc.co.za	s.mocah	29ef52e7563626a96cea74b4085c124	buyer
+Lufuno Makhado	l.makhado@gmail.com	l.makhado	29ef52e7563626a96cea74b4085c124	seller
+Katlego Joshua	m.johnson@outlook.com	K.Joshua	29ef52e7563626a96cea74b4085c124	both
+Priya Naidoo	p.naidoo@webmail.co.za	priya_n	29ef52e7563626a96cea74b4085c124	buyer
+Lebo Dlamini	lebo.d@ymail.com	lebod	29ef52e7563626a96cea74b4085c124	seller
+Thabo Nkosi	thabo.n@gmail.com	thabo_n	29ef52e7563626a96cea74b4085c124	both
+Aisha Patel	aisha.p@yahoo.com	aisha_p	29ef52e7563626a96cea74b4085c124	seller
+Lerato Dlamini	lerato.d@outlook.com	lerato_d	29ef52e7563626a96cea74b4085c124	buyer
+Sipho Mokoena	sipho.m@gmail.com	sipho_m	29ef52e7563626a96cea74b4085c124	both
+Zanele Khumalo	zanele.k@ymail.com	zanele_k	29ef52e7563626a96cea74b4085c124	buyer
+Katlago	kg@gmail.com	KG_14	182382c2609c1c428b04017f66e9cf6c	seller	pending
+update_status	11	active	2026-05-04T19:35:13+02:00
+delete	11	2026-05-04T19:43:21+02:00

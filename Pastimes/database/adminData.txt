@@ -1,0 +1,4 @@
+Super Admin	admin@pastimes.co.za	admin	c3c37a23fa3c5a5f41f9d43f85e99edd
+Jane Mokoena	j.mokoena@pastimes.co.za	jmokoena	c3c37a23fa3c5a5f41f9d43f85e99edd
+Dev Admin	dev@pastimes.co.za	devadmin	c3c37a23fa3c5a5f41f9d43f85e99edd
+Peter John	pj@gmail.com	pj_123	182382c2609c1c428b04017f66e9cf6c

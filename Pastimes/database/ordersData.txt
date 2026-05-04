@@ -1,0 +1,10 @@
+1	3	John Doe	12 Main Rd	Cape Town	8001	residential	295.00	15.00	delivered
+4	1	Priya Naidoo	5 Rose Ave	Durban	4001	residential	365.00	15.00	dispatched
+1	5	John Doe	12 Main Rd	Cape Town	8001	residential	165.00	15.00	pending
+4	6	Priya Naidoo	5 Rose Ave	Durban	4001	work	135.00	15.00	delivered
+1	8	John Doe	12 Main Rd	Cape Town	8001	residential	665.00	15.00	pending
+8	2	Lerato Dlamini	12 Jacaranda Street	Pretoria	0001	residential	435.00	15.00	delivered
+9	4	Sipho Mokoena	45 Kingdom Street	Johannesburg	2000	residential	310.00	15.00	dispatched
+10	7	Zanele Khumalo	89 Peace Road	Soweto	1804	residential	310.00	15.00	pending
+6	9	Aisha Patel	33 Oak Lane	Durban	4001	work	105.00	15.00	delivered
+7	10	Thabo Nkosi	77 Forest Drive	Cape Town	8001	residential	215.00	15.00	dispatched

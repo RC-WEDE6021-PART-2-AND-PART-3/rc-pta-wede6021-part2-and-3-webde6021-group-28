@@ -1,0 +1,15 @@
+2	Levi's 501 Jeans Blue Denim	Levi's	bottoms	32	like new	350.00	Classic straight-fit jeans	approved
+2	Nike Air Zoom Running Shoes	Nike	footwear	9	good	420.00	Barely worn trainers	approved
+5	Zara Floral Wrap Dress	Zara	dresses	M	like new	280.00	Perfect summer dress	approved
+3	H&M Olive Trench Coat	H&M	outerwear	L	good	320.00	Warm lined coat	approved
+2	Adidas Hoodie Grey Marl	Adidas	tops	XL	fair	150.00	Slight pilling on cuffs	approved
+5	Woolworths Striped Linen Top	Woolies	tops	S	like new	120.00	Unworn with tags	approved
+3	Puma Gym Leggings Black	Puma	activewear	M	good	180.00	High-waisted, v. comfy	approved
+2	Fossil Leather Watch Brown	Fossil	accessories	ONE	like new	650.00	Comes with original box	approved
+5	MRP Denim Mini Skirt	MRP	bottoms	S	fair	90.00	Light wash, slight fraying	approved
+3	Tommy Hilfiger Polo Shirt	Tommy	tops	M	good	200.00	Classic navy polo	approved
+6	Urban Brand Color-Block Sweatshirt	Urban Brand	tops	L	like new	349.00	Modern streetwear piece	approved
+7	Banana Republic Quarter-Zip Pullover	Banana Republic	tops	M	like new	480.00	Premium knit sweater	approved
+8	Dickies Short-Sleeve Zip Polo	Dickies	tops	L	good	295.00	Durable utility wear	approved
+6	LA Apparel Los Angeles Sweatshirt	LA Apparel	tops	XS	like new	310.00	West Coast style	approved
+7	Premium League Hoodie	Premium League	tops	XL	good	520.00	Bold crest logo design	pending
