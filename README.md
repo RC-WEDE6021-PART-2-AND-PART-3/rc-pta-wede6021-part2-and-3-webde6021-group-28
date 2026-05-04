@@ -213,39 +213,6 @@ pastimes/
 
 ## Database Schema
 
-### Entity Relationship Diagram
-
-```
-┌─────────────┐     ┌─────────────┐     ┌─────────────┐
-│   tblUser   │     │  tblClothes │     │  tblOrder   │
-├─────────────┤     ├─────────────┤     ├─────────────┤
-│ userID (PK) │←────│ sellerID(FK)│     │ orderID(PK) │
-│ fullName    │     │ clothingID  │←────│clothingID(FK)│
-│ email       │     │ title       │     │ buyerID(FK) │────→
-│ username    │     │ brand       │     │ deliveryName│
-│ passwordHash│     │ category    │     │ totalAmount │
-│ role        │     │ size        │     │ status      │
-│ status      │     │ condition   │     │ orderDate   │
-│ address     │     │ price       │     └─────────────┘
-│ createdAt   │     │ status      │
-└─────────────┘     │ co2Saved    │
-                    │ waterSaved  │
-┌─────────────┐     └─────────────┘
-│  tblAdmin   │
-├─────────────┤     ┌─────────────┐
-│ adminID(PK) │     │ tblMessages │
-│ fullName    │     ├─────────────┤
-│ email       │     │messageID(PK)│
-│ username    │     │ senderID(FK)│
-│ passwordHash│     │receiverID(FK)│
-│ createdAt   │     │ clothingID  │
-└─────────────┘     │ subject     │
-                    │ messageBody │
-                    │ isRead      │
-                    │ sentAt      │
-                    └─────────────┘
-```
-
 ### Table Descriptions
 
 | Table | Purpose | Key Fields |
