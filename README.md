@@ -234,3 +234,26 @@ $database = 'ClothingStore';
 ```
 
 ---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Acknowledgments
+
+- Inspired by [ThredUp](https://www.thredup.com) and [Vinted](https://www.vinted.com)
+- Icons by [Font Awesome](https://fontawesome.com)
+- Fonts by [Google Fonts](https://fonts.google.com)
+- Charts by [Chart.js](https://www.chartjs.org)
+
+---
+
+<div align="center">
+
+**Built with purpose. Shop sustainably.**
+
+[Back to Top](#pastimes)
+
+</div>
