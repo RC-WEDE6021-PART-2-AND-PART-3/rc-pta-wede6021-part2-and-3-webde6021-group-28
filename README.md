@@ -94,3 +94,119 @@ The platform promotes circular fashion by tracking the environmental impact of e
 | **Charts** | Chart.js | Admin dashboard visualizations |
 
 ---
+
+## Quick Start
+
+Get up and running in under 5 minutes:
+
+### Prerequisites
+
+- [XAMPP](https://www.apachefriends.org/) (Apache + MySQL + PHP)
+- Web browser (Chrome, Firefox, Safari, Edge)
+- Code editor (VS Code recommended)
+
+### Database Setup
+
+1. Open your browser and navigate to:
+   ```
+   http://localhost/pastimes/scripts/loadClothingStore.php
+   ```
+
+2. Click **"Load All Data"** to automatically:
+   - Create the `ClothingStore` database
+   - Create all 5 tables with proper relationships
+   - Load seed data (users, admins, products, orders)
+
+### Access the Application
+
+| Page | URL |
+|------|-----|
+| **Homepage** | `http://localhost/pastimes/` |
+| **Admin Panel** | `http://localhost/pastimes/admin/login.php` |
+| **Shop** | `http://localhost/pastimes/shop.php` |
+
+---
+
+## Project Structure
+
+```
+pastimes/
+├── admin/                          # Admin panel
+│   ├── includes/
+│   │   ├── admin-header.php       # Admin navigation
+│   │   └── admin-footer.php       # Admin footer
+│   ├── dashboard.php              # Admin dashboard with charts
+│   ├── users.php                  # User management (CRUD)
+│   ├── listings.php               # Product approval workflow
+│   ├── orders.php                 # Order status management
+│   ├── messages.php               # Broadcast messaging
+│   ├── login.php                  # Admin authentication
+│   └── logout.php                 # Admin session termination
+│
+├── css/                           # Stylesheets
+│   ├── style.css                  # Main application styles
+│   ├── auth.css                   # Login/register styles
+│   └── admin.css                  # Admin panel styles
+│
+├── database/                      # Database files
+│   ├── ClothingStore.sql          # Complete database schema + data
+│   ├── userData.txt               # User seed data
+│   ├── adminData.txt              # Admin seed data
+│   ├── clothesData.txt            # Product seed data
+│   └── ordersData.txt             # Order seed data
+│
+├── images/                        # Image assets
+│   ├── README.md                  # Image guidelines
+│   └── README.txt                 # Detailed image instructions
+│
+├── includes/                      # Shared PHP components
+│   ├── classes/                   # OOP classes
+│   │   ├── User.php              # User model & methods
+│   │   ├── Clothing.php          # Product model & methods
+│   │   ├── Order.php             # Order model & methods
+│   │   └── Message.php           # Message model & methods
+│   ├── DBConn.php                # Database connection (MySQLi)
+│   ├── functions.php             # Utility functions
+│   ├── auth.php                  # Authentication helpers
+│   ├── header.php                # Site header/navigation
+│   └── footer.php                # Site footer
+│
+├── js/                           # JavaScript modules
+│   ├── main.js                   # Core functionality
+│   ├── validate.js               # Form validation
+│   ├── filter.js                 # Shop filtering
+│   ├── sell.js                   # Seller listing form
+│   ├── messages.js               # Messaging functionality
+│   └── admin.js                  # Admin panel interactions
+│
+├── scripts/                      # Setup & maintenance scripts
+│   ├── createTable.php           # Create tblUser table
+│   ├── loadClothingStore.php     # Full database setup
+│   ├── import_images.php         # Bulk image import
+│   └── smokeTest.php             # System verification
+│
+├── index.php                     # Homepage
+├── register.php                  # User registration
+├── login.php                     # User authentication
+├── logout.php                    # Session termination
+├── shop.php                      # Product catalog
+├── product.php                   # Product detail page
+├── cart.php                      # Shopping cart
+├── checkout.php                  # Checkout process
+├── order-confirmation.php        # Order success page
+├── sell.php                      # Create product listing
+├── dashboard.php                 # User dashboard
+├── my-orders.php                 # Order history
+├── messages.php                  # User messaging
+├── profile.php                   # Profile management
+├── about.php                     # About page
+├── privacy.php                   # Privacy policy
+│
+├── README.md                     # This file
+├── SETUP_GUIDE.md               # Detailed setup instructions
+├── CHECKLIST.md                 # Implementation checklist
+├── QUICK_START.txt              # Quick reference guide
+└── FILE_INDEX.txt               # Complete file listing
+```
+
+---
