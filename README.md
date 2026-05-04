@@ -17,3 +17,11 @@ A full-stack e-commerce web application for trading second-hand branded clothing
 [Features](#features) | [Quick Start](#quick-start) | [Installation](#installation) | [Documentation](#documentation) | [Contributing](#contributing)
 
 </div>
+
+---
+
+## Overview
+
+**Pastimes** is a production-quality PHP web application for trading second-hand branded clothing online. Inspired by platforms like [ThredUp](https://www.thredup.com) and [Vinted](https://www.vinted.com), it enables registered users to buy and sell pre-loved clothing in a secure, sustainable environment.
+
+The platform promotes circular fashion by tracking the environmental impact of each purchase, showing users how much CO2 and water they save compared to buying new clothing.
