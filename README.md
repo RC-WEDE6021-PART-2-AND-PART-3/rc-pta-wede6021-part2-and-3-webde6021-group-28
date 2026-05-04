@@ -25,3 +25,72 @@ A full-stack e-commerce web application for trading second-hand branded clothing
 **Pastimes** is a production-quality PHP web application for trading second-hand branded clothing online. Inspired by platforms like [ThredUp](https://www.thredup.com) and [Vinted](https://www.vinted.com), it enables registered users to buy and sell pre-loved clothing in a secure, sustainable environment.
 
 The platform promotes circular fashion by tracking the environmental impact of each purchase, showing users how much CO2 and water they save compared to buying new clothing.
+
+### Why Pastimes?
+
+- **Sustainable Fashion** - Every purchase saves an average of 3kg CO2 and 2,700L of water
+- **Secure Transactions** - Built with security best practices and input validation
+- **Role-Based Access** - Separate experiences for buyers, sellers, and administrators
+- **Modern UI/UX** - Responsive design that works on all devices
+- **Complete E-Commerce** - Full shopping cart, checkout, and order management
+
+---
+
+## Features
+
+### For Buyers
+
+| Feature | Description |
+|---------|-------------|
+| **Product Browsing** | Browse products by category, brand, size, condition, and price range |
+| **Advanced Search** | Real-time search with live filtering and recent search history |
+| **Shopping Cart** | Add items, adjust quantities, and manage cart before checkout |
+| **Secure Checkout** | Complete purchases with delivery address management |
+| **Order Tracking** | View order status and history |
+| **Messaging** | Contact sellers directly about products |
+| **Profile Management** | Manage personal information and saved addresses |
+
+### For Sellers
+
+| Feature | Description |
+|---------|-------------|
+| **Product Listing** | List items with photos, descriptions, and pricing |
+| **AI Price Suggestions** | Get intelligent price recommendations based on brand, category, and condition |
+| **Seller Dashboard** | Track listings, sales, and revenue statistics |
+| **Listing Management** | Edit, update, or remove your listings |
+| **Message Center** | Respond to buyer inquiries |
+
+### For Administrators
+
+| Feature | Description |
+|---------|-------------|
+| **User Verification** | Approve or reject new user registrations |
+| **Listing Approval** | Review and approve product listings before they go live |
+| **Order Management** | Update order statuses and track fulfillment |
+| **Broadcast Messaging** | Send announcements to all users, sellers, or buyers |
+| **Analytics Dashboard** | View platform statistics with Chart.js visualizations |
+| **User Management** | Full CRUD operations on user accounts |
+
+### Sustainability Tracking
+
+- Environmental impact displayed on order confirmation
+- CO2 savings calculated per item
+- Water savings displayed in liters
+- Promotes awareness of sustainable fashion choices
+
+---
+
+## Technology Stack
+
+| Layer | Technology | Purpose |
+|-------|------------|---------|
+| **Backend** | PHP 8.x | Server-side scripting with OOP |
+| **Database** | MySQL 8 | Relational data storage |
+| **Frontend** | HTML5, CSS3 | Semantic markup and styling |
+| **JavaScript** | ES6+ | DOM manipulation, AJAX, validation |
+| **Server** | Apache (XAMPP) | Local development server |
+| **Fonts** | Google Fonts | Playfair Display + Inter |
+| **Icons** | Font Awesome 6 | UI iconography |
+| **Charts** | Chart.js | Admin dashboard visualizations |
+
+---
