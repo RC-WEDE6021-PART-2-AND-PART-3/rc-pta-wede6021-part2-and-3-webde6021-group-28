@@ -14,7 +14,7 @@ A full-stack e-commerce web application for trading second-hand branded clothing
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-[Features](#features) | [Quick Start](#quick-start) | [Installation](#installation) | [Documentation](#documentation) | [Contributing](#contributing)
+[Features](#features) | [Quick Start](#quick-start)
 
 </div>
 
