@@ -210,3 +210,60 @@ pastimes/
 ```
 
 ---
+
+## Database Schema
+
+### Entity Relationship Diagram
+
+```
+┌─────────────┐     ┌─────────────┐     ┌─────────────┐
+│   tblUser   │     │  tblClothes │     │  tblOrder   │
+├─────────────┤     ├─────────────┤     ├─────────────┤
+│ userID (PK) │←────│ sellerID(FK)│     │ orderID(PK) │
+│ fullName    │     │ clothingID  │←────│clothingID(FK)│
+│ email       │     │ title       │     │ buyerID(FK) │────→
+│ username    │     │ brand       │     │ deliveryName│
+│ passwordHash│     │ category    │     │ totalAmount │
+│ role        │     │ size        │     │ status      │
+│ status      │     │ condition   │     │ orderDate   │
+│ address     │     │ price       │     └─────────────┘
+│ createdAt   │     │ status      │
+└─────────────┘     │ co2Saved    │
+                    │ waterSaved  │
+┌─────────────┐     └─────────────┘
+│  tblAdmin   │
+├─────────────┤     ┌─────────────┐
+│ adminID(PK) │     │ tblMessages │
+│ fullName    │     ├─────────────┤
+│ email       │     │messageID(PK)│
+│ username    │     │ senderID(FK)│
+│ passwordHash│     │receiverID(FK)│
+│ createdAt   │     │ clothingID  │
+└─────────────┘     │ subject     │
+                    │ messageBody │
+                    │ isRead      │
+                    │ sentAt      │
+                    └─────────────┘
+```
+
+### Table Descriptions
+
+| Table | Purpose | Key Fields |
+|-------|---------|------------|
+| **tblUser** | User accounts | userID, email, username, role (buyer/seller/both), status |
+| **tblAdmin** | Admin accounts | adminID, username, passwordHash |
+| **tblClothes** | Product listings | clothingID, sellerID, title, brand, price, status |
+| **tblOrder** | Purchase records | orderID, buyerID, clothingID, totalAmount, status |
+| **tblMessages** | User messaging | messageID, senderID, receiverID, messageBody |
+
+### Database Configuration
+
+```php
+// includes/DBConn.php
+$host = 'localhost';
+$user = 'root';
+$password = '';
+$database = 'ClothingStore';
+```
+
+---
